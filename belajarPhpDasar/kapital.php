@@ -14,5 +14,6 @@ $nama = "bangkit juang raharjo";
 </head>
 <body>
     <h1>hallo nama saya, <?php echo ucwords($nama); ?></h1>
+    <h1>hallo nama saya, <?php echo strtoupper($nama); ?></h1>
 </body>
 </html>
