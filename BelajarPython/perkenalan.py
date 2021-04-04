@@ -1,5 +1,3 @@
 nama = "Bangkit Juang Raharjo"
 
-panggil = f"hallo {nama}"
-
-print(panggil) 
+print(f"hallo {nama}")
