@@ -1,3 +1,5 @@
+import os
+
 def pertambahan(nilai1, nilai2):
     hasil = nilai1 + nilai2
     print(f"hasil dari {nilai1} + {nilai2} = {hasil}")
@@ -15,6 +17,7 @@ def pembagian(nilai1, nilai2):
     print(f"hasil dari {nilai1} / {nilai2} = {hasil}")
 
 while True:
+    os.system("clear")
     print("--=[ KALKULATOR SEDERHANA ]=--")
     print("\n")
     print("1. pertambahan")
