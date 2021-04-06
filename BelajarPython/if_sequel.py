@@ -1,4 +1,4 @@
-pilih = False
+pilih = True
 
 if pilih:
     print("selamat anda menang")
