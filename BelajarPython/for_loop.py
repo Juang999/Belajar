@@ -10,6 +10,7 @@ pilih = str(input("masukkan nama yang ingin anda hapus : "))
 
 pelanggan.remove(pilih)
 
+nomor = 1
 for nama in pelanggan:
-    print(nama)
+    print(f"{nomor=+}. {pilih}")
     
