@@ -1,17 +1,9 @@
-def create_html(tag, isi, **attributes):
-    
-    html = f"<{tag} "
+def create_html(tag, note, href="www.bingo.com"):
+    print(f"<{tag} href='{href}'>{note}</{tag}>")
 
-    for key, value in attributes.items():
-        html = html + f"{key}='{value}'"
 
-    html = html + f">{isi}<{tag}>"
+tag = str(input("masukkan tag untuk html : "))
+note = str(input("masukkan note untuk html : "))
+href = str(input("masukkan link untuk html : "))
 
-    return html
-
-html = create_html("h1", "hello python", href="www.google.com")
-print(html)
-
-html = create_html("h1", "hello python", style="margin-top:15px;")
-print(html)
-    
+create_html(tag, note, href)
