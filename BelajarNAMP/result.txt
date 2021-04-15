@@ -1,0 +1,9 @@
+156.32.33.45.in-addr.arpa	name = scanme.nmap.org.
+
+Authoritative answers can be found from:
+32.33.45.in-addr.arpa	nameserver = ns4.linode.com.
+32.33.45.in-addr.arpa	nameserver = ns1.linode.com.
+32.33.45.in-addr.arpa	nameserver = ns5.linode.com.
+32.33.45.in-addr.arpa	nameserver = ns2.linode.com.
+32.33.45.in-addr.arpa	nameserver = ns3.linode.com.
+
