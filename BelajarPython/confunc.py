@@ -40,3 +40,16 @@ def delete_kontak(daftar_kontak):
         print("kontak berhasil di hapus!!!")
 
     
+def find_kontak(daftar_kontak):
+    nama_pencarian = input("masukkan nama : ")
+
+    for kontak in daftar_kontak:
+        nama = kontak["nama"]
+        if nama.lower().find(nama_pencarian.lower()) != -1:
+            print("\n")
+            print("===========================")
+            print(f"Nama : {kontak['nama']}")
+            print(f"Email : {kontak['email']}")
+            print(f"Telepon : {kontak['telepon']}")
+            print("===========================")
+            print("\n")

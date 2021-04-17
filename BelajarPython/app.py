@@ -32,4 +32,11 @@ while True:
     elif pilih == 3:
         confunc.delete_kontak(daftar_kontak)
 
+    elif pilih == 4:
+        confunc.find_kontak(daftar_kontak)
+
+    else: 
+        print("pilihan tidak ada!!!")
+        break
+
     
