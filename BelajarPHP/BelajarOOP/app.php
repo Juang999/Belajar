@@ -13,6 +13,7 @@ while (true) {
     echo "2. Pengurangan\n";
     echo "3. Perkalian\n";
     echo "4. Pembagian\n";
+    echo "0. Keluar\n";
     echo "\n";
     echo "pilihan > ";
     $pilihan = trim(fgets(STDIN));
@@ -25,6 +26,9 @@ while (true) {
         $calculator->perkalian();
     } elseif ($pilihan == 4) {
         $calculator->pembagian();
+    } elseif ($pilihan == 0) {
+        echo "terimakasih telah menggunakan tools ini :)\n";
+        exit();
     } else {
         echo "maaf pilihan tidak ada!!\n";
         exit();
