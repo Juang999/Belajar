@@ -1,0 +1,26 @@
+            h1, h2, h3 {
+                color: blue;
+                background-color: aqua;
+            }
+
+            .hello2 {
+                color: red;
+                background-color: yellow;
+            }
+
+            .hello1 {
+                color: orange;
+                background-color: red;
+            }
+
+            .name1:hover {
+                color: red;
+            }
+
+            .name2:hover {
+                color: yellow;
+            }
+
+            .name3:hover {
+                color: green;
+            }

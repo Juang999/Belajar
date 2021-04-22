@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    background-color: aqua;
+}
+
+h1:hover {
+    color: black;
+}
+
+table {
+    color: red;
+    border-color: yellow;
+}
+
+ 

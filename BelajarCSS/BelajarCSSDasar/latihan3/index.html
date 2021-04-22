@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Ini HTML</title>
+    </head>
+    <style>
+        table, th, td {
+            border: 1px solid red;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            height: 50px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: gray;
+        }
+
+        tr:nth-child(even) {
+            background-color: aliceblue;
+        }
+    </style>
+    <body>
+        <table border="1">
+            <tr>
+                <th>Bahasa</th>
+                <th>Framework</th>
+            </tr>
+            <tr>
+                <td rowspan="2">PHP</td>
+                <td>Laravel</td>
+            </tr>
+            <tr>
+                <td>Codeignither</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Ruby</td>
+                <td>Ruby On Rails</td>
+            </tr>
+            <tr>
+                <td>Sinature</td>
+            </tr>
+        </table>
+    </body>
+</html>
