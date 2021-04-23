@@ -1,8 +1,35 @@
-;table {
+
+table, th, td {
     width: 100%;
+    border: 3px solid;
+    border-collapse: collapse;
+    border-color:white;
+}
+
+.Header, .Halaman1, .Halaman2, .Footer {
+    vertical-align: top;
 }
 
 .Header {
     background-color: red;
+    margin-top: 0%;
+    vertical-align: top;
 }
 
+.header {
+    margin-top: 0%;
+}
+
+.Halaman1 {
+    background-color: yellow;
+    height: 400px;
+    width: 30%;
+}
+
+.Halaman2 {
+    background-color: green;
+}
+
+.Footer {
+    background-color: purple;
+}
