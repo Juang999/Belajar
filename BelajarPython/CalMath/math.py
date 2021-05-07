@@ -1,4 +1,4 @@
-def titikPuncak():
+def kuadrat():
     a = int(input("masukkan nilai a : "))
     b = int(input("masukkan nilai b : "))
     c = int(input("masukkan nilai c : "))
@@ -21,7 +21,8 @@ def titikPuncak():
 
     hasil = a1 + b1 + c
 
+    print("\n")
+    print(f"x = {x}")
     print(f"y = {hasil}")
 
-def linear():
-
+kuadrat()

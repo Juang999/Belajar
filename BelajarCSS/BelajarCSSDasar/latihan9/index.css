@@ -1,0 +1,44 @@
+.satu {
+    background-color: red;
+    color: white;
+    height: 70px;
+    width: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.dua {
+    background-color: yellow;
+    color: white;
+    height: 70px;
+    width: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.tiga {
+    background-color: green;
+    color: white;
+    height: 70px;
+    width: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+}
+
+#kotak:hover {
+    background-color: gray;
+    color: white;
+    transition: 1s;
+}

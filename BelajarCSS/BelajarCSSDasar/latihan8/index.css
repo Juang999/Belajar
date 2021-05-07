@@ -1,0 +1,21 @@
+.box {
+    background-color: green;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    float: left;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box:hover {
+    color: black;
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}

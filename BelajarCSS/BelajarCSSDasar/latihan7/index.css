@@ -1,0 +1,9 @@
+ .margin {
+     background-color: aqua;
+     height: 400px;
+     width: 500px;
+     box-sizing: border-box;
+     margin: 300px auto;
+     padding: 50px;
+
+ }

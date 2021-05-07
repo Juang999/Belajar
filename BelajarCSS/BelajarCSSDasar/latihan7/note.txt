@@ -1,0 +1,3 @@
+
+border-box = untuk menambahkan width & height tak lebih dari border pada div
+content-box = menambahkan width dan height ke div

@@ -1,0 +1,11 @@
+FLOAT
+
+float memiliki 3 jenis, yaitu:
+
+1. left = menggeser objek ke sebelah kiri
+2. right = menggeser objek ke sebalah kanan
+3. none = tidak merubah posisi objek sama sekali
+
+kegunaan overflow :
+
+- menyesuaikan div/background dengan object
